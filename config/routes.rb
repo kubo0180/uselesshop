@@ -1,6 +1,9 @@
 Uselesshop::Application.routes.draw do
+  get "stores/index"
+
   resources :products
 
+  root :to => 'stores#index', as: 'stores'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
