@@ -7,20 +7,21 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Product.delete_all
 Product.create(title: 'Drawers', 
-         description: %{ <p>
+         description: %{ 
                            Set of drawers. Seems good condition except needs handles
-                         </p>}, 
+                      }, 
          image_url: 'img0003.jpg', 
          fee: 333 )
 Product.create(title: 'Timber', 
-         description: %{ <p>
-                           Dimensional lumber pieces. Looks like old growth - dense growth rings. Nice find. Dumpster also has a pile of bricks and some sheet wood #reuse #salvage #reclaimed
-                         </p>}, 
+         description: %{
+                           Dimensional lumber pieces. Looks like old growth - dense growth rings. 
+                           Nice find. Dumpster also has a pile of bricks and some sheet wood #reuse #salvage #reclaimed
+                      }, 
          image_url: 'img0002.jpg', 
          fee: 222 )
 Product.create(title: 'Cribs', 
-         description: %{ <p>
+         description: %{
                            Another crib
-                         </p>}, 
+                      }, 
          image_url: 'img0001.jpg', 
          fee: 111 )
