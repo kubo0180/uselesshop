@@ -2,12 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .stores {
-  h1 { 
-    margin: 0;
-    padding-bottom: 0.5em;
-    font-family: sans-serif;
-    color: #226;
-  }
   .item {
     overflow: auto;
     margin-top: 1em;
@@ -21,7 +15,6 @@
     }
 
     h3 {
-      font-family: sans-serif;
       margin-left: 120px;
       margin-top: 3px;
       margin-bottom: 2px;

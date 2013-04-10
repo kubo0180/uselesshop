@@ -9,7 +9,7 @@
     <h3><%= product.title %></h3>
     <%= simple_format(product.description) %>
     <div class="fee_line">
-      <span class="fee"><%= product.fee %></span>
+      <span class="fee"><%= number_to_currency(product.fee) %></span>
     </div>
   </div>
 <% end %>
