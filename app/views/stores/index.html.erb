@@ -1,4 +1,4 @@
-<h1>UselesStores</h1>
+<h1>Items</h1>
 <% if notice %>
   <p id="notice"><%= notice %></p>
 <% end %>
@@ -10,6 +10,7 @@
     <%= simple_format(product.description) %>
     <div class="fee_line">
       <span class="fee"><%= number_to_currency(product.fee) %></span>
+      <%= button_to 'Add to Cart', line_items_path(product_id: product) %>
     </div>
   </div>
 <% end %>
