@@ -19,3 +19,25 @@
     }
   }
 }
+
+.depot_form {
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.4em;
+      margin-right: 1em;
+      display: block;
+    }
+
+    .actions {
+      float: right;
+      margin-right: 1em;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
