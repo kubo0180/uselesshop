@@ -47,3 +47,4 @@ gem 'flatui-rails'
 # gem 'debugger'
 
 gem 'kaminari'
+gem 'bcrypt-ruby'
