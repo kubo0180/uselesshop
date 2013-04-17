@@ -45,3 +45,5 @@ gem 'flatui-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'kaminari'
